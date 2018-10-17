@@ -35,10 +35,10 @@ class ViewController: UIViewController {
         if firstNameTextField.text == "" {
             fatalError()
         }
-        //put thwe swifty stuff here ipsum fuckit
+        //put thwe swifty stuff here ipsum stuff whatever rlly
         let newPerson = Person(firstName: firstNameTextField.text!, lastName: lastNameTextField.text!, email: emailTextField.text!)
         
-        let submitAlert = UIAlertController(title: "Person Added", message: "\(newPerson.firstName) \(newPerson.lastName) with email \(newPerson.email) was added to the database.", preferredStyle: .alert)
+        let submitAlert = UIAlertController(title: "Person Added", message: "\(newPerson.firstName) \(newPerson.lastName) with the email of \(newPerson.email) was added to the database.", preferredStyle: .alert)
         
         let closeAction = UIAlertAction(title: "Close", style: .default)
         
